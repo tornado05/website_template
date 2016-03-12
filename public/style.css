@@ -121,3 +121,8 @@ main div a{
     display: inline-block;
     background: transparent;
 }
+
+main div a:hover{
+    color: transparent;
+    background: transparent;
+}
