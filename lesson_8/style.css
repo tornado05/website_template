@@ -138,3 +138,75 @@ body {
     text-align: right;
     width: 33%;
 }
+
+@media screen and (max-width: 1024px) {
+    .main-page{
+        padding: 0px;
+    }
+
+    .main-page header {
+        display: none;
+    }
+
+    .main-page footer {
+        display: none;
+    }
+
+    .main-page section{
+        background: black;
+    }    
+
+    .main-page section .main-logo {
+        position: static;
+        border-radius: 0px;
+        background: rgba(0, 0, 0, 1);
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .main-page section .main-logo:hover {
+        opacity: 1;
+        background: rgba(0, 0, 0, .5);
+    }
+
+    .main-page section .categories .category-overlay {
+        opacity: 1;
+    }
+
+    .main-page section .categories div{
+        display: block;
+    }
+
+    .main-page section .categories div a{
+        display: block;
+        width: 100%;
+    }
+
+    .main-page section .categories div a div{
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .main-page section .categories div a div div {
+        opacity: 1;
+    }
+
+    .main-page section .categories div a div div span{
+        margin-top: 40vw;
+        font-size: 40px;
+    }
+}
+
+@media screen and (orientation:landscape) and (max-width: 1024px) {
+    .main-page section{
+        background: blue;
+    }    
+
+}
+
+@media screen and (orientation:portrait) and (max-width: 1024px) {
+    .main-page section{
+        background: yellow;
+    }    
+
+}
