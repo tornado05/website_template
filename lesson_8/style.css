@@ -1,0 +1,140 @@
+body {
+    background: #000;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.main-page {
+    padding: 40px;
+}
+.main-page header {
+    padding-bottom: 20px;
+    display: table;
+    width: 100%}
+.main-page header div {
+    display: table-cell;
+    text-align: center;
+}
+.main-page header div a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background: rgba(255, 255, 255, .25);
+    padding: 5px 25px;
+}
+.main-page header div a:active, .main-page header div a:hover {
+    background: rgba(255, 255, 255, .55);
+}
+.main-page header div ul li {
+    display: inline-block;
+}
+.main-page header .left-container {
+    text-align: left;
+    width: 33%;
+}
+.main-page header .right-container {
+    text-align: right;
+    width: 33%;
+}
+.main-page section {
+    background: red;
+    width: 100%;
+    text-align: center;
+}
+.main-page section .main-logo {
+    display: inline-block;
+    background: rgba(0, 0, 0, .5);
+    width: calc((100vw - 80px)/ 4);
+    height: calc((100vw - 80px)/ 4);
+    border-radius: 50%;
+    opacity: .7;
+    z-index: 20;
+    position: absolute;
+    margin: auto;
+    top: calc(100px + ((100vw - 80px)/ 8));
+    left: calc((100vw/2) - ((100vw - 80px)/ 8));
+}
+.main-page section .main-logo:hover {
+    opacity: 1;
+}
+.main-page section .main-logo img {
+    margin-top: 40%;
+    width: calc((100vw - 80px)/ 4.5);
+}
+.main-page section .categories {
+    display: table;
+    width: 100%;
+    height: calc((100vw - 80px)/ 2);
+}
+.main-page section .categories .category-gea {
+    background: url('cat.jpg');
+    background-size: 100% auto;
+}
+.main-page section .categories .category-overlay {
+    opacity: 0;
+}
+.main-page section .categories .category-overlay:hover {
+    opacity: 1;
+}
+.main-page section .categories div {
+    display: table-row;
+}
+.main-page section .categories div a {
+    width: 25%;
+    text-align: center;
+    display: table-cell;
+}
+.main-page section .categories div a div {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: 10;
+}
+.main-page section .categories div a div div {
+    opacity: 0;
+}
+.main-page section .categories div a div div:hover {
+    opacity: 1;
+}
+.main-page section .categories div a div div span {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    vertical-align: middle;
+    margin-top: calc((100vw)/ 10);
+}
+.main-page footer {
+    padding-top: 20px;
+    display: table;
+    width: 100%}
+.main-page footer div {
+    display: table-cell;
+    text-align: center;
+}
+.main-page footer div a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background: rgba(255, 255, 255, .25);
+    padding: 5px 25px;
+}
+.main-page footer div a:active, .main-page footer div a:hover {
+    background: rgba(255, 255, 255, .55);
+}
+.main-page footer div ul li {
+    display: inline-block;
+}
+.main-page footer .left-container {
+    text-align: left;
+    width: 33%;
+}
+.main-page footer .right-container {
+    text-align: right;
+    width: 33%;
+}
